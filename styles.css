@@ -1,8 +1,19 @@
-.center-hack {
-  display: grid;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  height: 100%;
+}
+
+.wrapper {
+  display: flex;
   justify-content: center;
 }
 
 main {
-  width: 980px;
+  display: grid;
+  width: 1200px;
+  height: 100%;
 }
